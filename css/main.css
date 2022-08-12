@@ -1,0 +1,97 @@
+.container{
+    width: 1350px;
+    margin: auto;
+}
+.header{
+    height: 680px;
+    background-color: #2f3342;
+}
+.header-flex .title{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;
+}
+.header-flex .header-logo a{
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    list-style-type: none;
+    padding-top: 10px;
+}
+.navbar li a{
+    color: rgb(207, 200, 200);
+    text-decoration: none;
+    padding-right: 20px;
+    font-family: sans-serif;
+}
+.navbar li a:hover{
+    color: #fff;
+}
+.msd{
+    font-size: 15px;
+    width: 130px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: #fff;
+}
+.msd:hover{
+    background-color: rgb(87, 108, 230);
+    color: #fff;
+}
+.header-flex{
+    width: 100%;
+}
+.fifty .first h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #fff;
+    padding-left: 175px;
+    padding-top: 50px;
+}
+.fifty p{
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 175px;
+    padding-top: 20px;
+    color: rgba(255, 255, 255, 0.8);
+}
+.box{
+    margin-top: 20px;
+    margin-left: 174px;
+}
+.box .mani{
+    width: 45%;
+    height: 60px;
+    background: #fff;
+    border-radius: 10px;
+}
+.number{
+    display: flex;
+    width: 400px;
+}
+.number .one{
+    
+}
+.number .one h3{
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.head-all{
+    display: flex;
+}
+.img .maniii{
+    margin-left: 20px;
+}
+
+
+
