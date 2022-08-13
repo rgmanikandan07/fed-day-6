@@ -1,7 +1,8 @@
 .container{
-    width: 1350px;
+    width: 1300px;
     margin: auto;
 }
+/*header starts*/
 .header{
     height: 680px;
     background-color: #2f3342;
@@ -10,6 +11,9 @@
     display: flex;
     justify-content: space-around;
     padding-top: 25px;
+}
+.header-logo{
+    margin-right: 120px;
 }
 .header-flex .header-logo a{
     font-size: 30px;
@@ -21,6 +25,7 @@
     display: flex;
     list-style-type: none;
     padding-top: 10px;
+    margin-left: 60px;
 }
 .navbar li a{
     color: rgb(207, 200, 200);
@@ -47,26 +52,29 @@
 .header-flex{
     width: 100%;
 }
+.fifty{
+    margin-top: 25px;
+}
 .fifty .first h1{
     font-size: 48px;
     font-weight: 700;
     color: #fff;
-    padding-left: 175px;
+    padding-left: 120px;
     padding-top: 50px;
 }
 .fifty p{
     font-size: 15px;
     font-weight: 400;
-    padding-left: 175px;
+    padding-left: 120px;
     padding-top: 20px;
     color: rgba(255, 255, 255, 0.8);
 }
 .box{
     margin-top: 20px;
-    margin-left: 174px;
+    margin-left: 120px;
 }
 .box .mani{
-    width: 45%;
+    width: 100%;
     height: 60px;
     background: #fff;
     border-radius: 10px;
@@ -74,24 +82,106 @@
 .number{
     display: flex;
     width: 400px;
-}
-.number .one{
-    
+    margin-left: 70px;
 }
 .number .one h3{
     color: rgba(255, 255, 255, 0.8);
-    text-align: center;
     font-size: 32px;
     font-weight: 700;
-    margin-top: 20px;
-    padding-bottom: 20px;
+    margin-top: 30px;
+    margin: 20px;
+    padding: 35px;
+    padding-bottom: 5px;
+}
+.number .one p{
+    padding-left: 50px;
+}
+.number .hrline{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 3px;
+    color: blue;
 }
 .head-all{
     display: flex;
 }
 .img .maniii{
-    margin-left: 20px;
+    margin-left: 70px;
+}
+/*header ends*/
+/*features starts*/
+.feature-flex{
+    display: flex;
+    margin-left: 70px;
+}
+.feature-flex .boxes{
+    width: 33.33%;
+    padding: 40px;
+}
+.boxes{
+    display: flex;
+}
+.boxes a{
+    text-decoration: none;
+}
+.boxes .truc{
+    padding-bottom: 20px;
+}
+.boxes .truc a{
+    color: rgb(44, 44, 197);
+    font-size: 50px;
+    padding-right: 20px;
+}
+.boxes h4 a{
+    color: #22242b;
+    font-size: 15px;
+    font-weight: 800;
+}
+.boxes p{
+    color: #22242b;
+    font-size: 15px;
+}
+.boxes p a{
+    color: #22242b;
+}
+.boxes .three a:hover{
+    color: blue;
+}
+/*features ends*/
+/*About starts*/
+.about-flex{
+    display: flex;
+    width: 100%;
+}
+.about-flex .about-first{
+    width: 50%;
+}
+.about-first h3{
+    font-weight: 700;
+    font-size: 32px;
+    color: #001f8d;
+    padding-bottom: 10px;
+}
+.about-first p{
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+.about-one .about-icon a{
+    display: flex;
+}
+.about-p h5{
+    font-size: 10px;
+    font-weight: 700;
+    color: #19335c;
+    margin-bottom: 10px;
+}
+.about-flex .about-second{
+    width: 50%;
 }
 
 
+
+/*About ends*/
 
