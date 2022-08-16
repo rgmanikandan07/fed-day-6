@@ -1,3 +1,4 @@
+
 .container{
     width: 1300px;
     margin: auto;
@@ -11,9 +12,6 @@
     display: flex;
     justify-content: space-around;
     padding-top: 25px;
-}
-.header-logo{
-    margin-right: 120px;
 }
 .header-flex .header-logo a{
     font-size: 30px;
@@ -59,19 +57,18 @@
     font-size: 48px;
     font-weight: 700;
     color: #fff;
-    padding-left: 120px;
+    
     padding-top: 50px;
 }
 .fifty p{
     font-size: 15px;
     font-weight: 400;
-    padding-left: 120px;
     padding-top: 20px;
     color: rgba(255, 255, 255, 0.8);
 }
 .box{
     margin-top: 20px;
-    margin-left: 120px;
+
 }
 .box .mani{
     width: 100%;
@@ -82,7 +79,7 @@
 .number{
     display: flex;
     width: 400px;
-    margin-left: 70px;
+    
 }
 .number .one h3{
     color: rgba(255, 255, 255, 0.8);
@@ -94,7 +91,7 @@
     padding-bottom: 5px;
 }
 .number .one p{
-    padding-left: 50px;
+    padding-left: 40px;
 }
 .number .hrline{
     content: "";
@@ -108,13 +105,14 @@
     display: flex;
 }
 .img .maniii{
-    margin-left: 70px;
+   padding-left: 200px; 
 }
 /*header ends*/
 /*features starts*/
 .feature-flex{
     display: flex;
-    margin-left: 70px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .feature-flex .boxes{
     width: 33.33%;
@@ -154,6 +152,7 @@
 .about-flex{
     display: flex;
     width: 100%;
+    margin-bottom: 30px;
 }
 .about-flex .about-first{
     width: 50%;
@@ -162,26 +161,195 @@
     font-weight: 700;
     font-size: 32px;
     color: #001f8d;
+    
     padding-bottom: 10px;
 }
 .about-first p{
     font-size: 15px;
     padding-bottom: 20px;
+    
 }
 .about-one .about-icon a{
     display: flex;
+    font-size: 25px;
+    
+    text-decoration: none;
 }
 .about-p h5{
-    font-size: 10px;
+    font-size: 15px;
     font-weight: 700;
     color: #19335c;
-    margin-bottom: 10px;
+
+    margin-bottom: 20px;
+}
+.about-p p{
+
 }
 .about-flex .about-second{
     width: 50%;
 }
-
-
-
 /*About ends*/
+/*our services starts*/
+.ourservice{
+    display: flex;
+}
+.our-flex h3{
+    color: #000000;
+    padding-top: 20px;
+    text-decoration: none;
+    font-weight: 700;
+}
+.our-flex{
+    margin-right: 30px ;
+    padding-top: 40px;
+}
+.our-flex h3 a:hover{
+    color: #20409e;
+}
+.our-first{
+    border: 1px solid rgba(14, 29, 52, 0.15);
+    background: #fff;
+    position: relative;
+    margin: 10px;
+    border-radius: 0;
+    height: 100%;
+}
+.our-flex .our-mani1{
+    display: flex;
+    
+}
+.our-flex p{
+    padding-top: 25px;
+}
+.our-second{
+    border: 1px solid rgba(14, 29, 52, 0.15);
+    background: #fff;
+    position: relative;
+    margin: 10px;
+    border-radius: 0;
+    height: 100%;
+}
+.our-flex .our-mani2{
+    display: flex;
+    
+}
+/*our services ends*/
+/*cta starts*/
+.cta{
+    background-attachment: fixed;
+    
+    margin-top: 40px;
+}
+.totcta{
+    width: 1300px;
+    height: 400px;
+    background: url(../cta-bg.jpg);
+    /* background-attachment: ; */
+}
+.totcta h3{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 800;
+    padding-top: 150px;
+    text-align: center;
+}
+.totcta p{
+    color: #fff;
+    font-size: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+.cta-btn{
+    margin-top: 20px;
+    margin-left: 600px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 900;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(143, 80, 44);
+}
+/*cta ends*/
+/*gifts starts*/
+.gifts{
+    margin-top: 50px;
+}
+.first-four{
+    display: flex;
+    margin-top: 30px;
+}
+.text-cont{
+    margin-left: 70px;
+}
+.text-cont h3{
+    font-weight: 600;
+    font-size: 26px;
+    color: #001973;
+    padding-bottom: 30px;
+}
+.text-cont p{
+    font-style: italic;
+    padding-bottom: 35px;
+}
+.text-cont li{
+    padding-bottom: 30px;
+}
+
+.second-four{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.text-cont2{
+    margin-right: 60px;
+}
+.text-cont2 h3{
+    font-weight: 600;
+    font-size: 26px;
+    color: #001973;
+    padding-bottom: 30px;
+}
+.text-cont2 .dhoni{
+    font-style: italic;
+    font-size: 18px;
+    padding-bottom: 25px;
+}
+.text-cont2 .dhoni2{
+    padding-bottom: 35px;
+    font-size: 18px;
+}
+/*gifts ends*/
+/*pricing starts*/
+.threeprice{
+    display: flex;
+    width: 33.33%;
+    height: 580px;
+}
+.threeprice h3{
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 25px;
+    color: rgb(27, 24, 24)
+}
+.threeprice h4{
+    font-size: 48px;
+    font-weight: 400;
+    color: #3061f5;
+    margin-bottom: 25px;
+}
+.firstprice{
+    margin-right: 270px;
+}
+.firstprice li{
+    padding-top: 20px;
+}
+.pribtn{
+    margin-top: 20px;
+}
+
+
+
+
+/*pricing ends*/
 
