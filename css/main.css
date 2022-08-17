@@ -366,6 +366,18 @@
     background-color: #3061f5;
     color: #fff;
 }
+.pribtn1{
+    background-color: #001f8d;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    width: 130px;
+    height: 45px;
+    border: solid 1px white;
+    border-radius: 5px;
+
+}
 /*pricing ends*/
 /*testimonial starts*/
 .testimonial{
@@ -423,3 +435,83 @@
 
 
 /*faq ends*/
+
+/*footer starts*/
+.footer{
+    background-color: #0E1D34;
+    padding-top: 20px;
+    height: 290px;
+}
+.foot{
+    display: flex;
+}
+.footone h2{
+    font-size: 30px;
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 15px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.footone p{
+    font-size: 14px;
+    padding-top: 20px;
+    color: #fff;
+}
+.icons{
+    color: #fff;
+    padding-top: 17px;
+}
+.icons i{
+    padding-right: 10px;
+}
+.footsecond{
+    font-weight: 600;
+    font-size: 15px;
+    margin-left: 120px;
+    color: #fff;
+    padding-top: 15px;
+}
+.footsecond ul{
+    padding-top: 20px;
+}
+.footsecond li{
+    padding-bottom: 20px;
+}
+.footsecond li a{
+    padding-bottom: 40px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+    transition: 0.3s;
+}
+.footsecond li a:hover{
+    color: #fff;
+}
+.footthird{
+    padding-top: 15px;
+    font-size: 15px;
+    color: #fff;
+    margin-left: 70px;
+}
+.firstpara{
+    padding-top: 20px;
+}
+.secpara{
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+/*footer ends*/
+
+/*copy right starts*/
+/*copy right ends*/
+
+
+
